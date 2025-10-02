@@ -164,6 +164,9 @@ h1{
 }
 @media screen and (min-width:576px) { 
     /* menu */
+    #menu{
+        width: 60%;
+    }
     #menu ul{
         display: flex;
         background-color: unset;
@@ -190,25 +193,46 @@ h1{
         flex-wrap: wrap;
         justify-content: unset;
         outline: solid;
+        height: 100vh;
     }
     /* 1st line */
     #bgimg{
-        width: 40%;
-        height: 60vh;
-        /* width: 100%;
-        height: 58vh;
-        background-image: url(../images/desktop-image-hero-1.jpg);
-        background-repeat: no-repeat;
-        background-size: cover; */
+        width: 60%;
+        height: 62vh;
     }
-    #slidertxt{
-        width: 30%;
-    /* display: flex;
-    flex-direction: column;
-    justify-self: center;
-    width: 100%;
-    padding-left: 2rem;
-    padding-right: 2rem; */
+    #desc{
+        width: 40%; 
+        padding: 0 4rem;
+    }
+    /* 2nd line */
+    #bgimg2{
+        width: 29.5%;
+        margin-top: unset;
+    }
+    #about{
+        width: 41%;
+    }
+    #bgimg3{
+        width: 29.5%;
+        margin-top: unset;
+    }
+    #slider{
+        top: 54.15%;
+        right: 29.5%;
+    }
+    #sliderarrow{
+    padding: 1.5rem 2.3rem;
+    }
+    #slidertxt a{
+        padding: 1rem 0;
+    }
 }
 
+@media screen and (max-width:1040px) {
+    #desc{
+        padding: 0 2rem;
+    }
+    #about{
+        padding: 1rem 2rem;
+    }
 }
