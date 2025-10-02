@@ -1,0 +1,75 @@
+@font-face{
+    font-family: "spartan";
+    src: url("../fonts/LeagueSpartan-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "spartan";
+}
+img, input{
+    vertical-align: bottom;
+    width: 100%;
+}
+body{
+}
+ul{
+    list-style: none;
+}
+/* Header */
+/* Menu burger */
+#menu{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+}
+#menu #openmenu:checked~ul{
+    display: flex;
+}
+#menu #openmenu:checked~label>img{
+    content: url("../images/icon-close.svg");
+}
+#openmenu {
+    display: none;
+}
+#burger{
+    z-index: 10;
+    padding: 2rem 1rem;
+
+}
+#menu ul{
+    display: none;
+    background-color: white;
+    width: 100%;
+    padding: 2rem 1rem;
+    position: absolute;
+    li{
+        padding-left: 5rem;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+#logo{
+    margin: 0 auto;
+    padding: 2rem 0rem;
+    transform:translate(-50%);
+}
+/* image */
+#bgimg{
+    width: 100%;
+    height: 58vh;
+    background-image: url(../images/desktop-image-hero-1.jpg);
+}
+.container{
+    width:100% ;
+}
+#slider{
+    position: absolute;
+    display: flex;
+    padding: 2rem;
+}
+#sliderarrow
+@media screen and (min-width:576px) { 
+}
